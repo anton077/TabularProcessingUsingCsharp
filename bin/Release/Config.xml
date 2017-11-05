@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--  You must  proviede either ORACLE connection or SQL SERVER  (not both of them!)
+!!!!ORACLE Connection String Example !!!!!
+  <![CDATA[Data Source=(DESCRIPTION =(ADDRESS =(PROTOCOL=TCP)(HOST = ENTERHERE)(PORT = 1521))(CONNECT_DATA=(SERVER = DEDICATED)
+    (SERVICE_NAME = ENTERHERE))); user =ENTERHERE; Password=ENTERHERE;]]>
+
+!!!!!SQL SERVER 	Connection String Example !!!!!
+<![CDATA[Server=ENTERHERE;Database=ENTERHERE;User Id=ENTERHERE;Password=ENTERHERE;Trusted_Connection=true;Integrated Security=SSPI;]]>
+		-->
+<root>
+  <CurrentTabularDB>ENTERHERE</CurrentTabularDB>
+  <TabularConnectionString>
+    <![CDATA[Provider = MSOLAP.7; Integrated Security = SSPI; Persist Security Info=True;Initial Catalog = ENTERHERE; Data Source = ENTERHERE; MDX Compatibility = 1; Safety Options = 2; MDX Missing Member Mode = Error; Update Isolation Level=2]]>
+  </TabularConnectionString>
+  <DBOracleConnectionString>
+  <![CDATA[Data Source=(DESCRIPTION =(ADDRESS =(PROTOCOL=TCP)(HOST = ENTERHERE)(PORT = 1521))(CONNECT_DATA=(SERVER = DEDICATED)
+    (SERVICE_NAME = DWH))); user id=ENTERHERE; Password=ENTERHERE;]]>
+  </DBOracleConnectionString>
+  <DBSQLserverConnectionString>
+ </DBSQLserverConnectionString>
+
+  <DWHStagingSchemaName>STG</DWHStagingSchemaName>
+  <tables>
+    <table name="ENTERHERE"/>
+    <table name="ENTERHERE"/>
+    <table name="ENTERHERE"/>
+
+  </tables>
+  <!--Provide date in format yyyyMMdd-->
+  <defaultdate min="20150101" max="20990101"/>
+</root>
+
+

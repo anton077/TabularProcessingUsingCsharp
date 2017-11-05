@@ -1,0 +1,23 @@
+﻿20171102 15:33 [INFO]    
+Tabular DB: MapPlanORAdev
+Tabular Connection: Provider = MSOLAP.7; Integrated Security = SSPI; Persist Security Info=True;Initial Catalog = MapPlanORAdev; Data Source = dwdev; MDX Compatibility = 1; Safety Options = 2; MDX Missing Member Mode = Error; Update Isolation Level=2
+Oracle Connection: Data Source=(DESCRIPTION =(ADDRESS =(PROTOCOL=TCP)(HOST = dwhdev.egged.intra)(PORT = 1521))(CONNECT_DATA=(SERVER = DEDICATED)
+    (SERVICE_NAME = DWH))); user id=STG_GW; Password=STG;
+SQL Server Connection: 
+Staging Schema: STG
+Min Default Date: 20150101
+Max Default Date: 20990101
+20171102 15:33 [INFO]    Connected to DB: MapPlanORAdev MODEL: Model
+20171102 15:33 [INFO]    Started working on FACT_BUS_DEMAND_PICKS
+20171102 15:33 [INFO]    Table 1 name: Fact_Bus_Demand_Picks Partitioned by: BD_DATE 
+mindate: 01-Jan-15 12:00:00 AM 
+maxdate: 18-Nov-17 12:00:00 AM
+20171102 15:33 [INFO]    
+Partition FROM TO: 01-Jan-17 12:00:00 AM 01-Feb-17 12:00:00 AM
+20171102 15:33 [INFO]    starting working on FACT_BUS_DEMAND_PICKS_jan2017 that last processed at 02-Nov-17 9:57:25 AM
+20171102 15:34 [INFO]    finished working on FACT_BUS_DEMAND_PICKS_jan2017
+20171102 15:34 [INFO]    
+Partition FROM TO: 01-Feb-17 12:00:00 AM 01-Mar-17 12:00:00 AM
+20171102 15:34 [INFO]    starting working on FACT_BUS_DEMAND_PICKS_feb2017 that last processed at 02-Nov-17 9:57:26 AM
+20171102 15:34 [INFO]    finished working on FACT_BUS_DEMAND_PICKS_feb2017
+20171102 15:34 [INFO]    Finished Successfully
